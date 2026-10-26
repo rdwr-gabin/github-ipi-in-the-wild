@@ -1,0 +1,51 @@
+{
+  "issues_prs_comments": {
+    "items_scanned": 142716078,
+    "items_scanned_crawl": 95075061,
+    "items_scanned_gh_archive": 47641017,
+    "items_with_hidden_text": 4902477,
+    "flagged_by_stage1": 34448,
+    "kept_by_stage2": 13141,
+    "template_text": 7890,
+    "left_after_template_check": 5251,
+    "removed_in_review": {
+      "false_positive_or_owner_self_test": 1901,
+      "security_research_tests": 11,
+      "aimed_at_ci_workflows_not_agents": 30,
+      "markers_read_by_ci_checks_or_conventional_bots": 526,
+      "markers_with_no_reader_found": 502
+    },
+    "findings": 2281,
+    "findings_per_million_items": 16.0,
+    "by_category": {
+      "first_party_orchestration": 1519,
+      "content_override": 374,
+      "defensive": 345,
+      "attack": 43
+    },
+    "by_dataset": {
+      "crawl": {
+        "items": 95075061,
+        "findings": 1151,
+        "per_million": 12.1
+      },
+      "gh_archive": {
+        "items": 47641017,
+        "findings": 1130,
+        "per_million": 23.7
+      }
+    }
+  },
+  "readmes": {
+    "repositories_scanned": 2000000,
+    "hidden_regions": 127995,
+    "snippets_flagged_by_llm": 1528,
+    "repositories_flagged_by_llm": 1864,
+    "repositories_with_findings": 106,
+    "repositories_by_category": {
+      "content_override": 79,
+      "defensive": 23,
+      "attack": 4
+    }
+  }
+}

@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ipiscan"
+version = "1.0.0"
+description = "Find hidden, AI-directed text (prompt injections and their relatives) in GitHub issues, pull requests, comments and READMEs."
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+dependencies = ["pyyaml>=6"]
+
+[project.optional-dependencies]
+openai = ["openai>=2"]
+anthropic = ["anthropic>=1"]
+all = ["openai>=2", "anthropic>=1"]
+dev = ["pytest>=8"]
+
+[project.scripts]
+ipi-scan = "ipiscan.cli:main"
+
+[tool.setuptools]
+packages = ["ipiscan"]
+
+[tool.setuptools.package-data]
+ipiscan = ["readme_prompt.md"]

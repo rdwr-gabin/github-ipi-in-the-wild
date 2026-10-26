@@ -1,0 +1,18 @@
+month,dataset,surfaces,items_scanned,first_party_orchestration,content_override,defensive,attack,findings,per_million
+2026-06,crawl,issues and PRs,18907915,35,40,43,15,133,7.0
+2026-07,crawl,issues and PRs,22033101,84,72,41,5,202,9.2
+2026-08,crawl,issues and PRs,24754919,86,118,152,8,364,14.7
+2026-09,crawl,issues and PRs,29379126,297,74,77,4,452,15.4
+2025-08,gh_archive,"issues, PRs and comments",118025,0,3,0,0,3,25.4
+2025-09,gh_archive,"issues, PRs and comments",8373504,30,19,4,0,53,6.3
+2025-10,gh_archive,"issues, PRs and comments",5523093,16,5,4,1,26,4.7
+2025-11,gh_archive,"issues, PRs and comments",5079166,136,0,1,0,137,27.0
+2025-12,gh_archive,"issues, PRs and comments",5101162,170,2,0,1,173,33.9
+2026-01,gh_archive,"issues, PRs and comments",5497288,18,4,2,0,24,4.4
+2026-02,gh_archive,"issues, PRs and comments",5131477,14,20,9,2,45,8.8
+2026-03,gh_archive,"issues, PRs and comments",5511338,9,4,2,5,20,3.6
+2026-04,gh_archive,"issues, PRs and comments",4428712,264,0,2,2,268,60.5
+2026-05,gh_archive,"issues, PRs and comments",2145357,227,5,1,0,233,108.6
+2026-06,gh_archive,comments only,411886,76,0,6,0,82,199.1
+2026-07,gh_archive,comments only,165988,38,0,1,0,39,235.0
+2026-08,gh_archive,comments only,154019,19,8,0,0,27,175.3
